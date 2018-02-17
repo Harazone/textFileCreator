@@ -20,6 +20,9 @@ public class TextMain {
 			    out.println("the text");
 			    //more code
 			    out.println("more text");
+			    bw.close();
+			    out.close();
+			    fw.close();
 			    //more code
 			} catch (IOException e) {
 			    //exception handling left as an exercise for the reader
